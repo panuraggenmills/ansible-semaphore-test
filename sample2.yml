@@ -1,8 +1,8 @@
 ---
 
 - name: sample-playbook
-  remote-user: a677055
   hosts: builds
+  remote_user: a677055
   tasks:
   - name: Creating an empty file
     file:
