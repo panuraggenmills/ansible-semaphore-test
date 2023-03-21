@@ -1,0 +1,10 @@
+---
+
+- name: sample-playbook
+  remote-user: a677055
+  hosts: builds
+  tasks:
+  - name: Creating an empty file
+    file:
+      path: "/home/test.txt"
+      state: touch
