@@ -1,9 +1,9 @@
 ---
 
 - name: sample-playbook
-  hosts: localhost
-  # remote_user: root
-  connection: local
+  hosts: builds
+  remote_user: testuser
+  # connection: local
   tasks:
   - name: Creating an empty file
     file:
