@@ -7,5 +7,5 @@
   tasks:
   - name: Creating an empty file
     file:
-      path: "/home/test.txt"
+      path: "/home/testuser/test.txt"
       state: touch
