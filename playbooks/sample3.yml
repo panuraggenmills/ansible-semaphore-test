@@ -1,0 +1,10 @@
+---
+
+- name: sample-playbook
+  hosts: builds
+  remote_user: testuser
+  # connection: local
+  tasks:
+  - name: Fetching secrets test
+  debug:
+    msg: "{{ lookup('hashi_vault', 'secret=my/path token=hvs.9VKCx8T4KGPXQwF02JjIoakQ url=http://localhost:8200')}}"
