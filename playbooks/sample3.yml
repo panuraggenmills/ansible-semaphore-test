@@ -7,4 +7,4 @@
   tasks:
   - name: Fetching secrets test
     debug:
-      msg: "{{ lookup('hashi_vault', 'secret=my/path token=hvs.4AwkBoIfkut9a8SLZQlnRzHZ url=http://localhost:8200')}}"
+      msg: "{{ lookup('hashi_vault', 'secret=my/path token=hvs.6DLaEScSzwsgMUeYWiI3KkgR url=http://localhost:8200')}}"
